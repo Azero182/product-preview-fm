@@ -114,15 +114,16 @@ button:hover {
     main {
         width: 90%;
         height: 100%;
-        border-radius: 0;
+        padding: 20px 20px 20px 20px;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
     .product {
-        margin-top: 10px;
-        width: 30%;
+        width: 15%;
         height: 100%;
         flex-direction: column;
-        background-color: blue;
-
+        margin: 0 auto;
+        border-radius: 10px;
     }
     .preview {
         width: 80%;
@@ -134,8 +135,18 @@ button:hover {
         border-radius: 10px 10px 0 0;
     }
     .info {
-        width: 80%;
+        width: 70%;
         height: 60%;
         border-radius: 0 0 10px 10px;
+    }
+    .desription {
+        letter-spacing: 2rem;
+        height: 25%;
+    }
+    .price {
+        margin-bottom: 1rem;
+    }
+    button {
+        padding: 15px;
     }
  } 
