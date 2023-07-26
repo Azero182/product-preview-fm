@@ -105,11 +105,37 @@ button:hover {
  .icon {
     width: 20px;
  } 
- /* @media (max-width:650px) {
+ @media (max-width:600px) {
+
     body {
-        
+        width: 600px;
+        margin: 0 auto;
     }
     main {
-        background-color: aqua;
+        width: 90%;
+        height: 100%;
+        border-radius: 0;
     }
- } */
+    .product {
+        margin-top: 10px;
+        width: 30%;
+        height: 100%;
+        flex-direction: column;
+        background-color: blue;
+
+    }
+    .preview {
+        width: 80%;
+        height: 40%;
+        
+    }
+    .preview img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    .info {
+        width: 80%;
+        height: 60%;
+        border-radius: 0 0 10px 10px;
+    }
+ } 
